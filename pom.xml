@@ -72,10 +72,8 @@
 					<plugin>
 						<groupId>org.springframework.boot</groupId>
 						<artifactId>spring-boot-maven-plugin</artifactId>
-						<version>1.4.3.RELEASE</version>
 						<configuration>
-						    <!-- this will get rid of version info from war file name -->
-							<finalName>${project.artifactId}</finalName>
+							<mainClass>com.websystique.springboot.SpringBootStandAloneWarApp</mainClass>
 						</configuration>
 					</plugin>
 				</plugins>
